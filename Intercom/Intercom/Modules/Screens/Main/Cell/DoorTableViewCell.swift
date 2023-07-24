@@ -13,6 +13,7 @@ class DoorTableViewCell: UITableViewCell {
     static let idCell = "DoorTableViewCell"
 
     var textSubject = CurrentValueSubject<String, Never>("")
+    var textPublisher = PassthroughSubject<String, Never>()
 
     var cancellables: Set<AnyCancellable> = []
 
@@ -66,9 +67,13 @@ class DoorTableViewCell: UITableViewCell {
         super.layoutSubviews()
     }
 
+    deinit {
+        cancellables.forEach { $0.cancel() }
+    }
+
     func configure(_ data: DoorsData) {
         titleLabel.text = data.name
-        editingTitleTextField.isHidden = true
+//        editingTitleTextField.isHidden = true
         editingTitleTextField.text = data.name
 
         if let snapshot = data.snapshot {
@@ -93,16 +98,16 @@ class DoorTableViewCell: UITableViewCell {
     }
 
     func setEditingMode(_ isEditing: Bool) {
-        // В этом методе вы можете скрывать или показывать кнопки и другие элементы в зависимости от режима редактирования
-        editingTitleTextField.isHidden = isEditing
-        // ... скрывайте или показывайте другие элементы ...
-        if !isEditing == true {
-            editingTitleTextField.publisher(for: \.text)
-                .compactMap { $0 }
-                .sink { [weak self] text in
-                    self?.textSubject.send(text)
-                }
-                .store(in: &cancellables)
+        if isEditing == true {
+//            editingTitleTextField.publisher(for: \.text)
+//                .compactMap { $0 }
+//                .sink { [weak self] text in
+            if let text = editingTitleTextField.text {
+                self.textPublisher.send(text)
+            }
+//                }
+//                .store(in: &cancellables)
         }
+        self.editingTitleTextField.isHidden = isEditing
     }
 }

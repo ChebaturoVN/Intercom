@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Combine
 
 class ViewController: UIViewController {
 
@@ -40,6 +41,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var doorView: UIView!
 
     @IBOutlet weak var tableView: UITableView!
+
+    let changeTextViewPublisher = PassthroughSubject<Bool, Never>()
+    var cancellables: Set<AnyCancellable> = []
 
     private var camersDataService: CamersDataServiceProtocol = CamersDataService()
     private var doorsDataService: DoorsDataServiceProtocol = DoorsDataService()
@@ -128,24 +132,31 @@ extension ViewController: UITableViewDataSource {
               let doorsData = doorsData?.data else { return UITableViewCell() }
 
         cell.configure(doorsData[indexPath.row])
-        cell.textSubject.sink { text in
-            guard var data = self.camersData else { return }
-            data.cameras[indexPath.row].name = text
-            self.camersData = data
-            self.tableView.reloadData()
-        }
-        .store(in: &cell.cancellables)
+        changeTextViewPublisher.sink { [weak self] flag in
+            cell.setEditingMode(!flag)
+            self?.isEditingMode = !(self?.isEditingMode ?? true)
+
+        }.store(in: &cancellables)
+
+        cell.textPublisher
+            .print()
+            .sink { [weak self] text in
+                self?.camersData?.cameras[indexPath.row].name = text
+            }
+            .store(in: &cell.cancellables)
         return cell
     }
 }
 
 extension ViewController: UITableViewDelegate {
 
-    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+    func tableView(_ tableView: UITableView,
+                   trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath
+    ) -> UISwipeActionsConfiguration? {
         let editingAction = UIContextualAction(style: .normal, title: nil) { (_, _, completionHandler) in
 
-            if let cell = (tableView.cellForRow(at: indexPath) as? DoorTableViewCell)?.setEditingMode(!self.isEditingMode) {
-                self.isEditingMode = !self.isEditingMode
+            if let cell = tableView.cellForRow(at: indexPath) as? DoorTableViewCell {
+                self.changeTextViewPublisher.send(self.isEditingMode)
             }
             completionHandler(true)
         }

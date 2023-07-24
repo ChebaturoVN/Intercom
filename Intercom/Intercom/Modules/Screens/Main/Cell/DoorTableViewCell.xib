@@ -44,8 +44,8 @@
                                     <action selector="statusLockButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6fD-sH-w5f"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите название двери" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NQq-sW-sXn" userLabel="EditingTitleTextField">
-                                <rect key="frame" x="21" y="9" width="261" height="34"/>
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите название двери" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NQq-sW-sXn" userLabel="EditingTitleTextField">
+                                <rect key="frame" x="21" y="9" width="195.33333333333334" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
@@ -57,17 +57,16 @@
                         <constraints>
                             <constraint firstItem="WeX-nf-GbJ" firstAttribute="leading" secondItem="Xsv-eQ-tBw" secondAttribute="leading" constant="21" id="3as-YA-Jtr"/>
                             <constraint firstItem="8a1-EK-bp2" firstAttribute="top" secondItem="Xsv-eQ-tBw" secondAttribute="top" constant="22" id="5Z7-sN-g3D"/>
+                            <constraint firstItem="WeX-nf-GbJ" firstAttribute="top" secondItem="NQq-sW-sXn" secondAttribute="bottom" constant="2" id="HGh-ka-KLG"/>
                             <constraint firstItem="WeX-nf-GbJ" firstAttribute="top" secondItem="8a1-EK-bp2" secondAttribute="bottom" constant="2" id="Lvr-2t-wuG"/>
                             <constraint firstAttribute="bottom" secondItem="WeX-nf-GbJ" secondAttribute="bottom" constant="27" id="MAB-3G-gYC"/>
                             <constraint firstItem="8a1-EK-bp2" firstAttribute="leading" secondItem="Xsv-eQ-tBw" secondAttribute="leading" constant="21" id="Wug-hU-f4b"/>
-                            <constraint firstItem="svg-2g-5id" firstAttribute="leading" secondItem="NQq-sW-sXn" secondAttribute="trailing" constant="34" id="ecQ-8L-0An"/>
+                            <constraint firstItem="svg-2g-5id" firstAttribute="leading" secondItem="NQq-sW-sXn" secondAttribute="trailing" constant="99.670000000000002" id="c3B-Oa-Emh"/>
                             <constraint firstAttribute="trailing" secondItem="svg-2g-5id" secondAttribute="trailing" constant="18" id="fTe-aZ-VA6"/>
-                            <constraint firstItem="NQq-sW-sXn" firstAttribute="leading" secondItem="Xsv-eQ-tBw" secondAttribute="leading" constant="21" id="hbW-xH-wKB"/>
                             <constraint firstAttribute="height" constant="88" id="nz9-Vu-T4t"/>
                             <constraint firstItem="svg-2g-5id" firstAttribute="centerY" secondItem="Xsv-eQ-tBw" secondAttribute="centerY" id="oa4-dJ-2vO"/>
                             <constraint firstItem="svg-2g-5id" firstAttribute="centerY" secondItem="Xsv-eQ-tBw" secondAttribute="centerY" id="pGl-Gq-EC7"/>
-                            <constraint firstItem="WeX-nf-GbJ" firstAttribute="top" secondItem="NQq-sW-sXn" secondAttribute="bottom" constant="2" id="qW3-ax-rX3"/>
-                            <constraint firstItem="NQq-sW-sXn" firstAttribute="top" secondItem="Xsv-eQ-tBw" secondAttribute="top" constant="9" id="uFF-va-NlG"/>
+                            <constraint firstItem="NQq-sW-sXn" firstAttribute="leading" secondItem="Xsv-eQ-tBw" secondAttribute="leading" constant="21" id="y6s-tc-4uL"/>
                         </constraints>
                     </view>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AZ8-uz-EBV">
