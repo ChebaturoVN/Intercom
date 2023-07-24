@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8095D37B2A6B2F1300E2C43B /* RESTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8095D37A2A6B2F1300E2C43B /* RESTManager.swift */; };
+		8095D37F2A6B2F7F00E2C43B /* CamersDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8095D37E2A6B2F7F00E2C43B /* CamersDataService.swift */; };
+		8095D3822A6B315700E2C43B /* CamersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8095D3812A6B315700E2C43B /* CamersModel.swift */; };
+		8095D3862A6B3A6A00E2C43B /* CamerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8095D3842A6B3A6A00E2C43B /* CamerTableViewCell.swift */; };
+		8095D3872A6B3A6A00E2C43B /* CamerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8095D3852A6B3A6A00E2C43B /* CamerTableViewCell.xib */; };
+		8095D38A2A6BBFB700E2C43B /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8095D3892A6BBFB600E2C43B /* ImageManager.swift */; };
+		8095D38C2A6D27F600E2C43B /* CamersHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8095D38B2A6D27F600E2C43B /* CamersHeaderView.swift */; };
+		8095D3932A6D4C1700E2C43B /* DoorsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8095D3922A6D4C1700E2C43B /* DoorsDataService.swift */; };
+		8095D3952A6D4CF100E2C43B /* DoorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8095D3942A6D4CF100E2C43B /* DoorsModel.swift */; };
+		8095D3982A6D738E00E2C43B /* DoorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8095D3962A6D738E00E2C43B /* DoorTableViewCell.swift */; };
+		8095D3992A6D738E00E2C43B /* DoorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8095D3972A6D738E00E2C43B /* DoorTableViewCell.xib */; };
+		80BF2B612A6A650D00A136F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF2B602A6A650D00A136F5 /* AppDelegate.swift */; };
+		80BF2B632A6A650D00A136F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF2B622A6A650D00A136F5 /* SceneDelegate.swift */; };
+		80BF2B652A6A650D00A136F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF2B642A6A650D00A136F5 /* ViewController.swift */; };
+		80BF2B682A6A650D00A136F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BF2B662A6A650D00A136F5 /* Main.storyboard */; };
+		80BF2B6D2A6A650F00A136F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BF2B6C2A6A650F00A136F5 /* Assets.xcassets */; };
+		80BF2B702A6A650F00A136F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BF2B6E2A6A650F00A136F5 /* LaunchScreen.storyboard */; };
+		80BF2B7B2A6A650F00A136F5 /* IntercomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF2B7A2A6A650F00A136F5 /* IntercomTests.swift */; };
+		80BF2B852A6A650F00A136F5 /* IntercomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF2B842A6A650F00A136F5 /* IntercomUITests.swift */; };
+		80BF2B872A6A650F00A136F5 /* IntercomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF2B862A6A650F00A136F5 /* IntercomUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80BF2B772A6A650F00A136F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80BF2B552A6A650D00A136F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80BF2B5C2A6A650D00A136F5;
+			remoteInfo = Intercom;
+		};
+		80BF2B812A6A650F00A136F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80BF2B552A6A650D00A136F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80BF2B5C2A6A650D00A136F5;
+			remoteInfo = Intercom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8095D37A2A6B2F1300E2C43B /* RESTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTManager.swift; sourceTree = "<group>"; };
+		8095D37E2A6B2F7F00E2C43B /* CamersDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamersDataService.swift; sourceTree = "<group>"; };
+		8095D3812A6B315700E2C43B /* CamersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamersModel.swift; sourceTree = "<group>"; };
+		8095D3842A6B3A6A00E2C43B /* CamerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerTableViewCell.swift; sourceTree = "<group>"; };
+		8095D3852A6B3A6A00E2C43B /* CamerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CamerTableViewCell.xib; sourceTree = "<group>"; };
+		8095D3892A6BBFB600E2C43B /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		8095D38B2A6D27F600E2C43B /* CamersHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamersHeaderView.swift; sourceTree = "<group>"; };
+		8095D3922A6D4C1700E2C43B /* DoorsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsDataService.swift; sourceTree = "<group>"; };
+		8095D3942A6D4CF100E2C43B /* DoorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsModel.swift; sourceTree = "<group>"; };
+		8095D3962A6D738E00E2C43B /* DoorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorTableViewCell.swift; sourceTree = "<group>"; };
+		8095D3972A6D738E00E2C43B /* DoorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoorTableViewCell.xib; sourceTree = "<group>"; };
+		80BF2B5D2A6A650D00A136F5 /* Intercom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intercom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BF2B602A6A650D00A136F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80BF2B622A6A650D00A136F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80BF2B642A6A650D00A136F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80BF2B672A6A650D00A136F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80BF2B6C2A6A650F00A136F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80BF2B6F2A6A650F00A136F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80BF2B712A6A650F00A136F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80BF2B762A6A650F00A136F5 /* IntercomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntercomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BF2B7A2A6A650F00A136F5 /* IntercomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomTests.swift; sourceTree = "<group>"; };
+		80BF2B802A6A650F00A136F5 /* IntercomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntercomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BF2B842A6A650F00A136F5 /* IntercomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomUITests.swift; sourceTree = "<group>"; };
+		80BF2B862A6A650F00A136F5 /* IntercomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80BF2B5A2A6A650D00A136F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BF2B732A6A650F00A136F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BF2B7D2A6A650F00A136F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8095D3772A6B2EBD00E2C43B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8095D37C2A6B2F3D00E2C43B /* Services */,
+				8095D3782A6B2ECE00E2C43B /* Managers */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8095D3782A6B2ECE00E2C43B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8095D3882A6BBFA200E2C43B /* ImageManager */,
+				8095D3792A6B2EDE00E2C43B /* Network */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8095D3792A6B2EDE00E2C43B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8095D37A2A6B2F1300E2C43B /* RESTManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8095D37C2A6B2F3D00E2C43B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8095D3902A6D4BF600E2C43B /* Doors */,
+				8095D37D2A6B2F5100E2C43B /* Camers */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8095D37D2A6B2F5100E2C43B /* Camers */ = {
+			isa = PBXGroup;
+			children = (
+				8095D37E2A6B2F7F00E2C43B /* CamersDataService.swift */,
+				8095D3802A6B314700E2C43B /* Model */,
+			);
+			path = Camers;
+			sourceTree = "<group>";
+		};
+		8095D3802A6B314700E2C43B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8095D3812A6B315700E2C43B /* CamersModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8095D3832A6B3A1900E2C43B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8095D3842A6B3A6A00E2C43B /* CamerTableViewCell.swift */,
+				8095D3852A6B3A6A00E2C43B /* CamerTableViewCell.xib */,
+				8095D38B2A6D27F600E2C43B /* CamersHeaderView.swift */,
+				8095D3962A6D738E00E2C43B /* DoorTableViewCell.swift */,
+				8095D3972A6D738E00E2C43B /* DoorTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8095D3882A6BBFA200E2C43B /* ImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				8095D3892A6BBFB600E2C43B /* ImageManager.swift */,
+			);
+			path = ImageManager;
+			sourceTree = "<group>";
+		};
+		8095D3902A6D4BF600E2C43B /* Doors */ = {
+			isa = PBXGroup;
+			children = (
+				8095D3922A6D4C1700E2C43B /* DoorsDataService.swift */,
+				8095D3912A6D4BFE00E2C43B /* Model */,
+			);
+			path = Doors;
+			sourceTree = "<group>";
+		};
+		8095D3912A6D4BFE00E2C43B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8095D3942A6D4CF100E2C43B /* DoorsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80BF2B542A6A650D00A136F5 = {
+			isa = PBXGroup;
+			children = (
+				80BF2B5F2A6A650D00A136F5 /* Intercom */,
+				80BF2B792A6A650F00A136F5 /* IntercomTests */,
+				80BF2B832A6A650F00A136F5 /* IntercomUITests */,
+				80BF2B5E2A6A650D00A136F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80BF2B5E2A6A650D00A136F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80BF2B5D2A6A650D00A136F5 /* Intercom.app */,
+				80BF2B762A6A650F00A136F5 /* IntercomTests.xctest */,
+				80BF2B802A6A650F00A136F5 /* IntercomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80BF2B5F2A6A650D00A136F5 /* Intercom */ = {
+			isa = PBXGroup;
+			children = (
+				80BF2B932A6A66AB00A136F5 /* Modules */,
+				8095D3772A6B2EBD00E2C43B /* Core */,
+				80BF2B962A6A66F200A136F5 /* Resources */,
+				80BF2B602A6A650D00A136F5 /* AppDelegate.swift */,
+				80BF2B622A6A650D00A136F5 /* SceneDelegate.swift */,
+				80BF2B662A6A650D00A136F5 /* Main.storyboard */,
+				80BF2B712A6A650F00A136F5 /* Info.plist */,
+			);
+			path = Intercom;
+			sourceTree = "<group>";
+		};
+		80BF2B792A6A650F00A136F5 /* IntercomTests */ = {
+			isa = PBXGroup;
+			children = (
+				80BF2B7A2A6A650F00A136F5 /* IntercomTests.swift */,
+			);
+			path = IntercomTests;
+			sourceTree = "<group>";
+		};
+		80BF2B832A6A650F00A136F5 /* IntercomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80BF2B842A6A650F00A136F5 /* IntercomUITests.swift */,
+				80BF2B862A6A650F00A136F5 /* IntercomUITestsLaunchTests.swift */,
+			);
+			path = IntercomUITests;
+			sourceTree = "<group>";
+		};
+		80BF2B932A6A66AB00A136F5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				80BF2B942A6A66DF00A136F5 /* Screens */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		80BF2B942A6A66DF00A136F5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				80BF2B952A6A66EA00A136F5 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		80BF2B952A6A66EA00A136F5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				80BF2B642A6A650D00A136F5 /* ViewController.swift */,
+				8095D3832A6B3A1900E2C43B /* Cell */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		80BF2B962A6A66F200A136F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80BF2B6E2A6A650F00A136F5 /* LaunchScreen.storyboard */,
+				80BF2B6C2A6A650F00A136F5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80BF2B5C2A6A650D00A136F5 /* Intercom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BF2B8A2A6A650F00A136F5 /* Build configuration list for PBXNativeTarget "Intercom" */;
+			buildPhases = (
+				80BF2B592A6A650D00A136F5 /* Sources */,
+				80BF2B5A2A6A650D00A136F5 /* Frameworks */,
+				80BF2B5B2A6A650D00A136F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Intercom;
+			productName = Intercom;
+			productReference = 80BF2B5D2A6A650D00A136F5 /* Intercom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80BF2B752A6A650F00A136F5 /* IntercomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BF2B8D2A6A650F00A136F5 /* Build configuration list for PBXNativeTarget "IntercomTests" */;
+			buildPhases = (
+				80BF2B722A6A650F00A136F5 /* Sources */,
+				80BF2B732A6A650F00A136F5 /* Frameworks */,
+				80BF2B742A6A650F00A136F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80BF2B782A6A650F00A136F5 /* PBXTargetDependency */,
+			);
+			name = IntercomTests;
+			productName = IntercomTests;
+			productReference = 80BF2B762A6A650F00A136F5 /* IntercomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80BF2B7F2A6A650F00A136F5 /* IntercomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BF2B902A6A650F00A136F5 /* Build configuration list for PBXNativeTarget "IntercomUITests" */;
+			buildPhases = (
+				80BF2B7C2A6A650F00A136F5 /* Sources */,
+				80BF2B7D2A6A650F00A136F5 /* Frameworks */,
+				80BF2B7E2A6A650F00A136F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80BF2B822A6A650F00A136F5 /* PBXTargetDependency */,
+			);
+			name = IntercomUITests;
+			productName = IntercomUITests;
+			productReference = 80BF2B802A6A650F00A136F5 /* IntercomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80BF2B552A6A650D00A136F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					80BF2B5C2A6A650D00A136F5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					80BF2B752A6A650F00A136F5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 80BF2B5C2A6A650D00A136F5;
+					};
+					80BF2B7F2A6A650F00A136F5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 80BF2B5C2A6A650D00A136F5;
+					};
+				};
+			};
+			buildConfigurationList = 80BF2B582A6A650D00A136F5 /* Build configuration list for PBXProject "Intercom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80BF2B542A6A650D00A136F5;
+			productRefGroup = 80BF2B5E2A6A650D00A136F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80BF2B5C2A6A650D00A136F5 /* Intercom */,
+				80BF2B752A6A650F00A136F5 /* IntercomTests */,
+				80BF2B7F2A6A650F00A136F5 /* IntercomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80BF2B5B2A6A650D00A136F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8095D3992A6D738E00E2C43B /* DoorTableViewCell.xib in Resources */,
+				80BF2B702A6A650F00A136F5 /* LaunchScreen.storyboard in Resources */,
+				80BF2B6D2A6A650F00A136F5 /* Assets.xcassets in Resources */,
+				8095D3872A6B3A6A00E2C43B /* CamerTableViewCell.xib in Resources */,
+				80BF2B682A6A650D00A136F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BF2B742A6A650F00A136F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BF2B7E2A6A650F00A136F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80BF2B592A6A650D00A136F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8095D38C2A6D27F600E2C43B /* CamersHeaderView.swift in Sources */,
+				8095D37F2A6B2F7F00E2C43B /* CamersDataService.swift in Sources */,
+				8095D37B2A6B2F1300E2C43B /* RESTManager.swift in Sources */,
+				80BF2B652A6A650D00A136F5 /* ViewController.swift in Sources */,
+				80BF2B612A6A650D00A136F5 /* AppDelegate.swift in Sources */,
+				8095D3862A6B3A6A00E2C43B /* CamerTableViewCell.swift in Sources */,
+				8095D3982A6D738E00E2C43B /* DoorTableViewCell.swift in Sources */,
+				8095D3932A6D4C1700E2C43B /* DoorsDataService.swift in Sources */,
+				80BF2B632A6A650D00A136F5 /* SceneDelegate.swift in Sources */,
+				8095D3952A6D4CF100E2C43B /* DoorsModel.swift in Sources */,
+				8095D38A2A6BBFB700E2C43B /* ImageManager.swift in Sources */,
+				8095D3822A6B315700E2C43B /* CamersModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BF2B722A6A650F00A136F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BF2B7B2A6A650F00A136F5 /* IntercomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BF2B7C2A6A650F00A136F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BF2B872A6A650F00A136F5 /* IntercomUITestsLaunchTests.swift in Sources */,
+				80BF2B852A6A650F00A136F5 /* IntercomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80BF2B782A6A650F00A136F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80BF2B5C2A6A650D00A136F5 /* Intercom */;
+			targetProxy = 80BF2B772A6A650F00A136F5 /* PBXContainerItemProxy */;
+		};
+		80BF2B822A6A650F00A136F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80BF2B5C2A6A650D00A136F5 /* Intercom */;
+			targetProxy = 80BF2B812A6A650F00A136F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80BF2B662A6A650D00A136F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80BF2B672A6A650D00A136F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80BF2B6E2A6A650F00A136F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80BF2B6F2A6A650F00A136F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80BF2B882A6A650F00A136F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80BF2B892A6A650F00A136F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80BF2B8B2A6A650F00A136F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Intercom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home-wini-studio.Intercom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80BF2B8C2A6A650F00A136F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Intercom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home-wini-studio.Intercom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80BF2B8E2A6A650F00A136F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home-wini-studio.IntercomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intercom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Intercom";
+			};
+			name = Debug;
+		};
+		80BF2B8F2A6A650F00A136F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home-wini-studio.IntercomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intercom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Intercom";
+			};
+			name = Release;
+		};
+		80BF2B912A6A650F00A136F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home-wini-studio.IntercomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Intercom;
+			};
+			name = Debug;
+		};
+		80BF2B922A6A650F00A136F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home-wini-studio.IntercomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Intercom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80BF2B582A6A650D00A136F5 /* Build configuration list for PBXProject "Intercom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BF2B882A6A650F00A136F5 /* Debug */,
+				80BF2B892A6A650F00A136F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80BF2B8A2A6A650F00A136F5 /* Build configuration list for PBXNativeTarget "Intercom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BF2B8B2A6A650F00A136F5 /* Debug */,
+				80BF2B8C2A6A650F00A136F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80BF2B8D2A6A650F00A136F5 /* Build configuration list for PBXNativeTarget "IntercomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BF2B8E2A6A650F00A136F5 /* Debug */,
+				80BF2B8F2A6A650F00A136F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80BF2B902A6A650F00A136F5 /* Build configuration list for PBXNativeTarget "IntercomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BF2B912A6A650F00A136F5 /* Debug */,
+				80BF2B922A6A650F00A136F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80BF2B552A6A650D00A136F5 /* Project object */;
+}
