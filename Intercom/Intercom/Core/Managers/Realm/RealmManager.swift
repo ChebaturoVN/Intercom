@@ -23,7 +23,7 @@ protocol RealmManagerProtocol: AnyObject {
 
 final class RealmManager: RealmManagerProtocol {
 
-    static let shared = RealmManager()
+    static let shared: RealmManagerProtocol = RealmManager()
 
     private let realm: Realm
 
@@ -151,9 +151,8 @@ final class RealmManager: RealmManagerProtocol {
 
                 camersModelObject.data = dataObject
 
-                try realm.write {
-                    realm.add(camersModelObject)
-                }
+                realm.add(camersModelObject)
+
             }
         } catch {
             print("Error saving data to Realm: \(error)")

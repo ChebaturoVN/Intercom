@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "recPoint.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

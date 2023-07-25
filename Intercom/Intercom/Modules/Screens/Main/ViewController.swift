@@ -209,14 +209,14 @@ extension ViewController: UITableViewDelegate {
                     self.realmManagerProtocol.updateCamersModel(camersModel)
                 }
 
-                self.tableView.reloadData()
+                self.updateTableView()
             } else {
                 guard var data = self.doorsModel else { return }
                 data.data[indexPath.row].favorites = !(data.data[indexPath.row].favorites)
                 self.doorsModel = data
 
                 self.realmManagerProtocol.updateDoorsModel(data)
-                self.tableView.reloadData()
+                self.updateTableView()
             }
             completionHandler(true)
         }
@@ -225,5 +225,16 @@ extension ViewController: UITableViewDelegate {
 
         let configuration = UISwipeActionsConfiguration(actions: Constants.selectFlagCameras ? [favoritAction] : [favoritAction, editingAction])
         return configuration
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if (tableView.cellForRow(at: indexPath) is DoorTableViewCell) {
+            let vc = DoorViewController()
+            if  let doorsModel = doorsModel {
+                vc.congigure(doorsModel.data[indexPath.row])
+                self.present(vc, animated: true)
+            }
+
+        }
     }
 }

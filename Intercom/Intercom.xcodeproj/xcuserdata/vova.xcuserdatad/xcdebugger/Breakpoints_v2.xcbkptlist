@@ -341,7 +341,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "FC7E37E6-EF47-408A-A88F-93243B92693D"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Intercom/Core/Managers/Network/RESTManager.swift"
@@ -977,7 +977,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "103"
             endingLineNumber = "103"
-            landmarkName = "setEditingMode(_:)"
+            landmarkName = "setEditingMode()"
             landmarkType = "7">
             <Locations>
                <Location

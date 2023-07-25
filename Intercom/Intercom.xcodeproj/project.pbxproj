@@ -30,6 +30,8 @@
 		80F40F662A6F0DD40075DD9F /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F40F652A6F0DD40075DD9F /* RealmManager.swift */; };
 		80F40F692A6F0E1A0075DD9F /* CamersModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F40F682A6F0E1A0075DD9F /* CamersModelObject.swift */; };
 		80F40F6B2A6F120D0075DD9F /* DoorsModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F40F6A2A6F120D0075DD9F /* DoorsModelObject.swift */; };
+		80F40F732A6FDDFD0075DD9F /* DoorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F40F712A6FDDFD0075DD9F /* DoorViewController.swift */; };
+		80F40F742A6FDDFD0075DD9F /* DoorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80F40F722A6FDDFD0075DD9F /* DoorViewController.xib */; };
 		BD426684A399356AEE92897D /* Pods_Intercom_IntercomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34ADF3F5D0B4743CB743A995 /* Pods_Intercom_IntercomUITests.framework */; };
 		CEA8E93D751BFA0C476752FA /* Pods_Intercom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C77B3E99A271F88D00EF9B /* Pods_Intercom.framework */; };
 		E1910EB42A40A34DF5B7E206 /* Pods_IntercomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716DB29806AAFDC0244AAC30 /* Pods_IntercomTests.framework */; };
@@ -87,6 +89,8 @@
 		80F40F652A6F0DD40075DD9F /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		80F40F682A6F0E1A0075DD9F /* CamersModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamersModelObject.swift; sourceTree = "<group>"; };
 		80F40F6A2A6F120D0075DD9F /* DoorsModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsModelObject.swift; sourceTree = "<group>"; };
+		80F40F712A6FDDFD0075DD9F /* DoorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorViewController.swift; sourceTree = "<group>"; };
+		80F40F722A6FDDFD0075DD9F /* DoorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoorViewController.xib; sourceTree = "<group>"; };
 		CBABDDB3C73BE53252472393 /* Pods-Intercom-IntercomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intercom-IntercomUITests.release.xcconfig"; path = "Target Support Files/Pods-Intercom-IntercomUITests/Pods-Intercom-IntercomUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E2C77B3E99A271F88D00EF9B /* Pods_Intercom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Intercom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -286,6 +290,7 @@
 		80BF2B942A6A66DF00A136F5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				80F40F6C2A6FDD730075DD9F /* Door */,
 				80BF2B952A6A66EA00A136F5 /* Main */,
 			);
 			path = Screens;
@@ -325,6 +330,15 @@
 				80F40F6A2A6F120D0075DD9F /* DoorsModelObject.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		80F40F6C2A6FDD730075DD9F /* Door */ = {
+			isa = PBXGroup;
+			children = (
+				80F40F712A6FDDFD0075DD9F /* DoorViewController.swift */,
+				80F40F722A6FDDFD0075DD9F /* DoorViewController.xib */,
+			);
+			path = Door;
 			sourceTree = "<group>";
 		};
 		C107AFDCAF35215C642B2627 /* Frameworks */ = {
@@ -450,6 +464,7 @@
 				80BF2B702A6A650F00A136F5 /* LaunchScreen.storyboard in Resources */,
 				80BF2B6D2A6A650F00A136F5 /* Assets.xcassets in Resources */,
 				8095D3872A6B3A6A00E2C43B /* CamerTableViewCell.xib in Resources */,
+				80F40F742A6FDDFD0075DD9F /* DoorViewController.xib in Resources */,
 				80BF2B682A6A650D00A136F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,6 +599,7 @@
 				8095D37B2A6B2F1300E2C43B /* RESTManager.swift in Sources */,
 				80BF2B652A6A650D00A136F5 /* ViewController.swift in Sources */,
 				80BF2B612A6A650D00A136F5 /* AppDelegate.swift in Sources */,
+				80F40F732A6FDDFD0075DD9F /* DoorViewController.swift in Sources */,
 				8095D3862A6B3A6A00E2C43B /* CamerTableViewCell.swift in Sources */,
 				8095D3982A6D738E00E2C43B /* DoorTableViewCell.swift in Sources */,
 				8095D3932A6D4C1700E2C43B /* DoorsDataService.swift in Sources */,
