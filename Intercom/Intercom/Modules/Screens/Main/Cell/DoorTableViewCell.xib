@@ -48,9 +48,6 @@
                                 <rect key="frame" x="21" y="9" width="195.33333333333334" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="editingTitleTextField:" destination="KGk-i7-Jjw" eventType="editingDidEnd" id="cq6-cl-tpx"/>
-                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.90196078430000004" green="0.94509803920000002" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -104,7 +101,7 @@
             <connections>
                 <outlet property="cameraImage" destination="AZ8-uz-EBV" id="Ng0-wb-uWg"/>
                 <outlet property="conteinerStatusView" destination="Xsv-eQ-tBw" id="CSt-Dq-5Bl"/>
-                <outlet property="editingTitleTextField" destination="NQq-sW-sXn" id="Y8B-S1-8Vg"/>
+                <outlet property="editingTitleTextField" destination="NQq-sW-sXn" id="fdU-Sn-Cju"/>
                 <outlet property="imageViewHeightConstraint" destination="kg1-qD-csd" id="XtE-LL-QoZ"/>
                 <outlet property="playCamera" destination="f8e-c3-kQY" id="u8o-iz-TYw"/>
                 <outlet property="statusLabel" destination="WeX-nf-GbJ" id="BVZ-vU-tim"/>

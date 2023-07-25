@@ -17,6 +17,8 @@ class DoorTableViewCell: UITableViewCell {
 
     var cancellables: Set<AnyCancellable> = []
 
+    private var isEditingMode = false
+
     @IBOutlet weak var imageViewHeightConstraint: NSLayoutConstraint!
 
     @IBOutlet weak var conteinerStatusView: UIView!
@@ -97,17 +99,11 @@ class DoorTableViewCell: UITableViewCell {
         }
     }
 
-    func setEditingMode(_ isEditing: Bool) {
-        if isEditing == true {
-//            editingTitleTextField.publisher(for: \.text)
-//                .compactMap { $0 }
-//                .sink { [weak self] text in
-            if let text = editingTitleTextField.text {
-                self.textPublisher.send(text)
-            }
-//                }
-//                .store(in: &cancellables)
+    func setEditingMode() {
+        if isEditingMode == true {
+            textPublisher.send(editingTitleTextField.text ?? "")
         }
-        self.editingTitleTextField.isHidden = isEditing
+        self.editingTitleTextField.isHidden = isEditingMode
+        self.isEditingMode = !self.isEditingMode
     }
 }

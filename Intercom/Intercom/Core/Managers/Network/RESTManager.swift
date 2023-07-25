@@ -17,6 +17,12 @@ enum HTTPMethod: String {
 struct APIResponse<T: Codable> {
     let statusCode: Int
     var data: T?
+    let error: Error?
+}
+
+struct APIErrorMessage: Error {
+    let message: String?
+    let error: Error?
 }
 
 class RESTManager {
@@ -26,12 +32,12 @@ class RESTManager {
 
         let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
             guard let httpResponse = response as? HTTPURLResponse else {
-                completion(APIResponse(statusCode: 0, data: nil))
+                completion(APIResponse(statusCode: 0, data: nil, error: error))
                 return
             }
 
             let statusCode = httpResponse.statusCode
-            var apiResponse = APIResponse<T>.init(statusCode: statusCode, data: nil)
+            var apiResponse = APIResponse<T>.init(statusCode: statusCode, data: nil, error: error)
 
             if let data = data {
                 do {

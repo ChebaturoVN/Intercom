@@ -13,7 +13,7 @@ struct DoorsModel: Codable {
 }
 
 struct DoorsData: Codable {
-    let name: String
+    var name: String
     let room: String?
     let id: Int
     var favorites: Bool

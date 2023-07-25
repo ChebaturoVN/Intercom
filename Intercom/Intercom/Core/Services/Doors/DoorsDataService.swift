@@ -8,21 +8,23 @@
 import Foundation
 
 protocol DoorsDataServiceProtocol {
-    func getDoorsList(completion: @escaping (DoorsModel?) -> Void)
+    func getDoorsList(completion: @escaping (Result<DoorsModel, APIErrorMessage>) -> Void)
 }
 
 final class DoorsDataService: DoorsDataServiceProtocol {
 
-    func getDoorsList(completion: @escaping (DoorsModel?) -> Void) {
+    func getDoorsList(completion: @escaping (Result<DoorsModel, APIErrorMessage>) -> Void) {
         let restManager = RESTManager()
-        guard let url = URL(string: "http://cars.cprogroup.ru/api/rubetek/doors/") else { return }
+        guard let url = URL(string: "http://cars.cprogroup.ru/api/rubetek/doors/") else {
+            completion(.failure(.init(message: "", error: nil)))
+            return }
 
         restManager.request(url: url, method: .get) { (response: APIResponse<DoorsModel>) in
 
             if response.statusCode == 200, let data = response.data {
-                completion(data)
+                completion(.success(data) )
             } else {
-                print("Error occurred or invalid response")
+                completion(.failure(.init(message: "\(response.statusCode)", error: response.error)))
             }
         }
     }

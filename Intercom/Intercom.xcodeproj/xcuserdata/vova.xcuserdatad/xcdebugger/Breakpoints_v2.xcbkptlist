@@ -14,73 +14,10 @@
             filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
             landmarkName = "numberOfSections(in:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "376168F8-55DD-41D7-AB05-2008DF29F2B5"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "configurationStart()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "376168F8-55DD-41D7-AB05-2008DF29F2B5 - 7cf46e6d0035476c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Intercom.CamersData&gt;) -&gt; () in Intercom.ViewController.configurationCameras() -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "292">
-               </Location>
-               <Location
-                  uuid = "376168F8-55DD-41D7-AB05-2008DF29F2B5 - bf1a79c5c76cd275"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Intercom.CamersData&gt;) -&gt; () in Intercom.ViewController.configurationCameras() -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "68">
-               </Location>
-               <Location
-                  uuid = "376168F8-55DD-41D7-AB05-2008DF29F2B5 - bf1a79c5c76cd2f9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Intercom.CamersData&gt;) -&gt; () in Intercom.ViewController.configurationCameras() -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60"
-                  offsetFromSymbolStart = "68">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -93,58 +30,10 @@
             filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "98C4562B-6D34-453C-8D83-F4771A21B467"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
-            landmarkName = "configurationStart()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "98C4562B-6D34-453C-8D83-F4771A21B467 - 89ee0ff1e69027fa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Intercom.ViewController.configurationCameras() -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "98C4562B-6D34-453C-8D83-F4771A21B467 - 7cf46e6d003546aa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Intercom.CamersData&gt;) -&gt; () in Intercom.ViewController.configurationCameras() -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
-                  offsetFromSymbolStart = "96">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -380,8 +269,8 @@
             filePath = "Intercom/Core/Managers/Network/RESTManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "request(url:method:completion:)"
             landmarkType = "7">
             <Locations>
@@ -458,13 +347,13 @@
             filePath = "Intercom/Core/Managers/Network/RESTManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "request(url:method:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "FC7E37E6-EF47-408A-A88F-93243B92693D - 9819101d94442420"
+                  uuid = "FC7E37E6-EF47-408A-A88F-93243B92693D - 9819101d944425ea"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -474,12 +363,12 @@
                   urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Core/Managers/Network/RESTManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "1240">
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1368">
                </Location>
                <Location
-                  uuid = "FC7E37E6-EF47-408A-A88F-93243B92693D - 9819101d94442420"
+                  uuid = "FC7E37E6-EF47-408A-A88F-93243B92693D - 9819101d944425ea"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -489,9 +378,9 @@
                   urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Core/Managers/Network/RESTManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "2084">
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2108">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -506,8 +395,8 @@
             filePath = "Intercom/Core/Managers/Network/RESTManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "request(url:method:completion:)"
             landmarkType = "7">
             <Locations>
@@ -584,8 +473,8 @@
             filePath = "Intercom/Core/Managers/Network/RESTManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "request(url:method:completion:)"
             landmarkType = "7">
             <Locations>
@@ -662,8 +551,8 @@
             filePath = "Intercom/Core/Managers/Network/RESTManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "request(url:method:completion:)"
             landmarkType = "7">
             <Locations>
@@ -785,8 +674,8 @@
             filePath = "Intercom/Core/Managers/Network/RESTManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "request(url:method:completion:)"
             landmarkType = "7">
             <Locations>
@@ -863,8 +752,8 @@
             filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
             landmarkName = "tableView(_:viewForHeaderInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -879,8 +768,8 @@
             filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
             landmarkName = "tableView(_:viewForHeaderInSection:)"
             landmarkType = "7">
             <Locations>
@@ -920,84 +809,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4EDCA018-CAC8-4622-A2EC-031BA0779302"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "configurationStart()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4EDCA018-CAC8-4622-A2EC-031BA0779302 - 1bd8428f7953b0e3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Optional&lt;Intercom.DoorsModel&gt;) -&gt; () in Intercom.ViewController.configurationStart() -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "64">
-               </Location>
-               <Location
-                  uuid = "4EDCA018-CAC8-4622-A2EC-031BA0779302 - 1bd8428f7953b0e3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Optional&lt;Intercom.DoorsModel&gt;) -&gt; () in Intercom.ViewController.configurationStart() -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "184">
-               </Location>
-               <Location
-                  uuid = "4EDCA018-CAC8-4622-A2EC-031BA0779302 - 1bd8428f7953b7be"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Optional&lt;Intercom.DoorsModel&gt;) -&gt; () in Intercom.ViewController.configurationStart() -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "64">
-               </Location>
-               <Location
-                  uuid = "4EDCA018-CAC8-4622-A2EC-031BA0779302 - 1bd8428f7953b7fc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Optional&lt;Intercom.DoorsModel&gt;) -&gt; () in Intercom.ViewController.configurationStart() -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
-                  offsetFromSymbolStart = "64">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "7E131AEF-4726-495E-AB23-8FABCE862816"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -1005,8 +816,8 @@
             filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "configCams(_:cellForRowAt:)"
             landmarkType = "7">
             <Locations>
@@ -1068,8 +879,8 @@
             filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
             landmarkName = "configDoors(_:cellForRowAt:)"
             landmarkType = "7">
             <Locations>
@@ -1116,8 +927,8 @@
             filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
             landmarkName = "tableView(_:heightForHeaderInSection:)"
             landmarkType = "7">
             <Locations>
@@ -1157,132 +968,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EDD652A0-7DA1-4478-A5FD-AC88B38281B4"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "158"
-            endingLineNumber = "158"
-            landmarkName = "tableView(_:trailingSwipeActionsConfigurationForRowAt:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "EDD652A0-7DA1-4478-A5FD-AC88B38281B4 - daf0d7c348624464"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "147"
-                  endingLineNumber = "147"
-                  offsetFromSymbolStart = "160">
-               </Location>
-               <Location
-                  uuid = "EDD652A0-7DA1-4478-A5FD-AC88B38281B4 - ba972555563df6aa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.UIContextualAction, __C.UIView, (Swift.Bool) -&gt; ()) -&gt; () in Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "146"
-                  endingLineNumber = "146"
-                  offsetFromSymbolStart = "188">
-               </Location>
-               <Location
-                  uuid = "EDD652A0-7DA1-4478-A5FD-AC88B38281B4 - ba972555563df6aa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.UIContextualAction, __C.UIView, (Swift.Bool) -&gt; ()) -&gt; () in Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "146"
-                  endingLineNumber = "146"
-                  offsetFromSymbolStart = "560">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "386C5C7C-E5BE-4643-A2F7-7FF81CA863E1"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "159"
-            endingLineNumber = "159"
-            landmarkName = "tableView(_:trailingSwipeActionsConfigurationForRowAt:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "386C5C7C-E5BE-4643-A2F7-7FF81CA863E1 - daf0d7c348624464"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "147"
-                  endingLineNumber = "147"
-                  offsetFromSymbolStart = "160">
-               </Location>
-               <Location
-                  uuid = "386C5C7C-E5BE-4643-A2F7-7FF81CA863E1 - ba972555563df737"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.UIContextualAction, __C.UIView, (Swift.Bool) -&gt; ()) -&gt; () in Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "149"
-                  endingLineNumber = "149"
-                  offsetFromSymbolStart = "188">
-               </Location>
-               <Location
-                  uuid = "386C5C7C-E5BE-4643-A2F7-7FF81CA863E1 - ba972555563df6f5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.UIContextualAction, __C.UIView, (Swift.Bool) -&gt; ()) -&gt; () in Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "147"
-                  endingLineNumber = "147"
-                  offsetFromSymbolStart = "568">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "3CF2668F-67C0-49C2-B4EA-52336DC0F700"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -1290,8 +975,8 @@
             filePath = "Intercom/Modules/Screens/Main/Cell/DoorTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
             landmarkName = "setEditingMode(_:)"
             landmarkType = "7">
             <Locations>
@@ -1331,175 +1016,252 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C92F756C-EE68-473D-B179-3B25BB5D3AEC"
+            uuid = "9C625DFE-EE18-49FA-82D5-4AFBA122DC60"
             shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Intercom/Modules/Screens/Main/Cell/DoorTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
-            landmarkName = "setEditingMode(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C92F756C-EE68-473D-B179-3B25BB5D3AEC - 7eba17d1689c8d63"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Intercom.DoorTableViewCell.setEditingMode(Swift.Bool) -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/Cell/DoorTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "105"
-                  endingLineNumber = "105"
-                  offsetFromSymbolStart = "748">
-               </Location>
-               <Location
-                  uuid = "C92F756C-EE68-473D-B179-3B25BB5D3AEC - a083d7cf4ee9a9b9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;) -&gt; Swift.Optional&lt;Swift.String&gt; in Intercom.DoorTableViewCell.setEditingMode(Swift.Bool) -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/Cell/DoorTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "105"
-                  endingLineNumber = "105"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  uuid = "C92F756C-EE68-473D-B179-3B25BB5D3AEC - 7eba17d1689c8d63"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Intercom.DoorTableViewCell.setEditingMode(Swift.Bool) -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/Cell/DoorTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "105"
-                  endingLineNumber = "105"
-                  offsetFromSymbolStart = "464">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CF003724-0906-4AE7-B020-62120EA938FB"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Intercom/Modules/Screens/Main/Cell/DoorTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
-            landmarkName = "setEditingMode(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "CF003724-0906-4AE7-B020-62120EA938FB - 7eba17d1689c8dc4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Intercom.DoorTableViewCell.setEditingMode(Swift.Bool) -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/Cell/DoorTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "108"
-                  endingLineNumber = "108"
-                  offsetFromSymbolStart = "604">
-               </Location>
-               <Location
-                  uuid = "CF003724-0906-4AE7-B020-62120EA938FB - 7eba17d1689c8dc4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Intercom.DoorTableViewCell.setEditingMode(Swift.Bool) -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/Cell/DoorTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "108"
-                  endingLineNumber = "108"
-                  offsetFromSymbolStart = "600">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A4DE0344-17C3-484C-811D-6A618556A809"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Intercom/Modules/Screens/Main/Cell/DoorTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "setEditingMode(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A4DE0344-17C3-484C-811D-6A618556A809 - 7eba17d1689c8a48"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Intercom.DoorTableViewCell.setEditingMode(Swift.Bool) -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/Cell/DoorTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "112"
-                  endingLineNumber = "112"
-                  offsetFromSymbolStart = "780">
-               </Location>
-               <Location
-                  uuid = "A4DE0344-17C3-484C-811D-6A618556A809 - 7eba17d1689c8a48"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Intercom.DoorTableViewCell.setEditingMode(Swift.Bool) -&gt; ()"
-                  moduleName = "Intercom"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/Cell/DoorTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "112"
-                  endingLineNumber = "112"
-                  offsetFromSymbolStart = "776">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "715649CA-A951-4276-9327-42C9BE555249"
-            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
-            landmarkName = "configDoors(_:cellForRowAt:)"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "tableView(_:trailingSwipeActionsConfigurationForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9C625DFE-EE18-49FA-82D5-4AFBA122DC60 - ba972555563df49a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIContextualAction, __C.UIView, (Swift.Bool) -&gt; ()) -&gt; () in Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
+                  moduleName = "Intercom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "9C625DFE-EE18-49FA-82D5-4AFBA122DC60 - daf0d7c34862460b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
+                  moduleName = "Intercom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "9C625DFE-EE18-49FA-82D5-4AFBA122DC60 - ba972555563df4e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIContextualAction, __C.UIView, (Swift.Bool) -&gt; ()) -&gt; () in Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
+                  moduleName = "Intercom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "9C625DFE-EE18-49FA-82D5-4AFBA122DC60 - ba972555563df4e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIContextualAction, __C.UIView, (Swift.Bool) -&gt; ()) -&gt; () in Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
+                  moduleName = "Intercom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F5E75A4-856B-412A-9CDC-5A9351087278"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "tableView(_:trailingSwipeActionsConfigurationForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5F5E75A4-856B-412A-9CDC-5A9351087278 - ba972555563df7fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIContextualAction, __C.UIView, (Swift.Bool) -&gt; ()) -&gt; () in Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
+                  moduleName = "Intercom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "5F5E75A4-856B-412A-9CDC-5A9351087278 - ba972555563df7fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIContextualAction, __C.UIView, (Swift.Bool) -&gt; ()) -&gt; () in Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
+                  moduleName = "Intercom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "560">
+               </Location>
+               <Location
+                  uuid = "5F5E75A4-856B-412A-9CDC-5A9351087278 - ba972555563df7dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIContextualAction, __C.UIView, (Swift.Bool) -&gt; ()) -&gt; () in Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
+                  moduleName = "Intercom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "5F5E75A4-856B-412A-9CDC-5A9351087278 - ba972555563df7dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIContextualAction, __C.UIView, (Swift.Bool) -&gt; ()) -&gt; () in Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
+                  moduleName = "Intercom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F902661A-6038-46CD-B7BC-378FD37C20CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "tableView(_:trailingSwipeActionsConfigurationForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F902661A-6038-46CD-B7BC-378FD37C20CF - daf0d7c34862477c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
+                  moduleName = "Intercom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "F902661A-6038-46CD-B7BC-378FD37C20CF - 50a5a7d820a283cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.UIContextualAction, __C.UIView, (Swift.Bool) -&gt; ()) -&gt; () in Intercom.ViewController.tableView(_: __C.UITableView, trailingSwipeActionsConfigurationForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UISwipeActionsConfiguration&gt;"
+                  moduleName = "Intercom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vova/Documents/GitHub-project/Intercom/Intercom/Intercom/Modules/Screens/Main/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "948058DC-BCAF-46DD-934D-5446C76B2277"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "tableView(_:trailingSwipeActionsConfigurationForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5C56EB3-0B60-4305-A247-4E9DF93DDB63"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "tableView(_:trailingSwipeActionsConfigurationForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6369D8C7-2E2E-4A19-AF68-E24338C34FDC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Intercom/Modules/Screens/Main/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "tableView(_:trailingSwipeActionsConfigurationForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

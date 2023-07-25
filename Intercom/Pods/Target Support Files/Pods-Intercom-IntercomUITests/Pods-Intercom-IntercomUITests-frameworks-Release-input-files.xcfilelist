@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Intercom-IntercomUITests/Pods-Intercom-IntercomUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework

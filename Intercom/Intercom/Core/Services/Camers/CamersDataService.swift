@@ -8,22 +8,22 @@
 import Foundation
 
 protocol CamersDataServiceProtocol {
-    func getCamersList(completion: @escaping (CamersData?) -> Void)
+    func getCamersList(completion: @escaping (Result<CamersModel, APIErrorMessage>) -> Void)
 }
 
 final class CamersDataService: CamersDataServiceProtocol {
 
-    func getCamersList(completion: @escaping(CamersData?) -> Void) {
+    func getCamersList(completion: @escaping(Result<CamersModel, APIErrorMessage>) -> Void) {
         let restManager = RESTManager()
-        guard let url = URL(string: "http://cars.cprogroup.ru/api/rubetek/cameras/") else { return }
+        guard let url = URL(string: "http://cars.cprogroup.ru/api/rubetek/cameras/") else {             completion(.failure(.init(message: "", error: nil)))
+            return }
 
         restManager.request(url: url, method: .get) { (response: APIResponse<CamersModel>) in
 
             if response.statusCode == 200, let data = response.data {
-                let list = data.data
-                completion(list)
+                completion(.success(data))
             } else {
-                print("Error occurred or invalid response")
+                completion(.failure(.init(message: "\(response.statusCode)", error: response.error)))
             }
         }
     }

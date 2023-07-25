@@ -8,12 +8,12 @@
 import Foundation
 
 struct CamersModel: Codable {
-    let success: Bool
-    let data: CamersData
+    var success: Bool
+    var data: CamersData
 }
 
 struct CamersData: Codable {
-    let room: [String]
+    var room: [String]
     var cameras: [CamerasList]
 }
 
