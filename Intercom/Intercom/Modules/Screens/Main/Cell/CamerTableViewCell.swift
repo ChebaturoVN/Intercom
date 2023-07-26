@@ -11,6 +11,8 @@ class CamerTableViewCell: UITableViewCell {
 
     static let idCell = "CamerTableViewCell"
 
+    var camerasList: CamerasList?
+
     @IBOutlet weak var playViewImage: UIImageView!
     @IBOutlet weak var cameraImageView: UIImageView!
     @IBOutlet weak var favoriteImageView: UIImageView!
@@ -57,7 +59,7 @@ class CamerTableViewCell: UITableViewCell {
         }
 
     func configure(_ data: CamerasList) {
-
+        camerasList = data
         guard let url = URL(string: data.snapshot) else { return }
         ImageManager.shared.downloadImage(from: url) { image in
             DispatchQueue.main.async {
