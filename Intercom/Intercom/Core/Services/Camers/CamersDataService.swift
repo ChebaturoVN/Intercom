@@ -15,7 +15,8 @@ final class CamersDataService: CamersDataServiceProtocol {
 
     func getCamersList(completion: @escaping(Result<CamersModel, APIErrorMessage>) -> Void) {
         let restManager = RESTManager()
-        guard let url = URL(string: "http://cars.cprogroup.ru/api/rubetek/cameras/") else {             completion(.failure(.init(message: "", error: nil)))
+        guard let url = URL(string: "http://cars.cprogroup.ru/api/rubetek/cameras/") else {
+            completion(.failure(.init(message: "", error: nil)))
             return }
 
         restManager.request(url: url, method: .get) { (response: APIResponse<CamersModel>) in

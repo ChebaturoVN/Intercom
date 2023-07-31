@@ -23,7 +23,7 @@ final class ImageManager {
 
             completion(image)
         }
-            .resume()
+        .resume()
     }
 }
 
